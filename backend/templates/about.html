@@ -1,39 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>About</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 40px;
-        }
-        img {
-            width: 300px;
-            height: auto;
-            border-radius: 12px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 32px;
-        }
-        a {
-            color: #00f;
-            text-decoration: none;
-        }
-    </style>
 </head>
-<body>
+<body style="text-align: center; font-family: sans-serif; background-color: black; color: white;">
+
     <h1>About</h1>
-    <img src="{{ url_for('static', filename='me.jpg') }}" alt="My Photo">
-    <p><strong>ชื่อ-นามสกุล :</strong> นาย อรรคพล พลอยพันแสง</p>
-    <p><strong>Name-Surname :</strong> Mr. AKRAPON PLOYPUNSANG</p>
-    <p><strong>รหัสนักศึกษา :</strong> 67130142</p>
-    <p><strong>E-Mail :</strong> 67130142@dpu.ac.th</p>
-    <br>
-    <a href="/">← กลับหน้าหลัก</a>
+    <img src="{{ url_for('static', filename='me.jpg') }}" alt="Me" width="300"><br><br>
+
+    <p>ชื่อ-นามสกุล : นาย อรรคพล พลอยพันแสง</p>
+    <p>Name-Surname : Mr. AKRAPON PLOYPUNSANG</p>
+    <p>รหัสนักศึกษา : 67130142</p>
+    <p>E-Mail : 67130142@dpu.ac.th</p>
+
+    <a href="/" style="color: cyan;">← กลับหน้าหลัก</a>
+
 </body>
 </html>
